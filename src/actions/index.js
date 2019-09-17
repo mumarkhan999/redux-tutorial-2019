@@ -9,3 +9,10 @@ export const decrement = () => {
         type: 'DECREMENT'
     }
 }
+
+export const incrementByAny = (anyIncre) => {
+    return {
+        type: 'INCREMENT_BY_ANY',
+        payload: anyIncre
+    }
+}
